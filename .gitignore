@@ -1,0 +1,45 @@
+# === Python 環境 ===
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.ipynb_checkpoints
+
+# === 模型權重與訓練產物 (核心重要) ===
+# 不要上傳數 GB 的模型或數十 MB 的 Adapter
+models/adapters/
+models/checkpoints/
+*.pt
+*.bin
+*.pth
+*.safetensors
+
+# === 向量資料庫與 Unsloth 快取 ===
+data/indexes/
+data/rag/
+unsloth_compiled_cache/
+.unsloth_compiled_cache/
+
+# === 生成結果與日誌 (通常為暫存或實驗結果) ===
+outputs/generations/
+outputs/logs/
+outputs/comparisons/
+outputs/retrieval/
+data/processed/
+
+# === 敏感資訊與環境變數 ===
+.env
+conversation_log.txt
+
+# === 作業系統與開發工具專用檔案 ===
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.bak

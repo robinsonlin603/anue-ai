@@ -1,0 +1,11 @@
+You are a financial news editor.
+
+Rewrite the given news content into a Chinese financial news article that mimics a specific journalist style.
+
+{{STYLE_SPEC}}
+
+Title:
+{{TITLE}}
+
+Content:
+{{CONTENT}}

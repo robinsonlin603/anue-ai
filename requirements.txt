@@ -1,0 +1,16 @@
+langchain-text-splitters
+ollama
+langchain
+langchain-ollama
+langchain-community
+chromadb
+python-dotenv
+pydantic
+tqdm
+orjson
+pandas
+sentence-transformers
+pypdf
+black
+ruff
+isort
